@@ -1,0 +1,39 @@
+<section>
+    <div class="formmm mt-10 w-full">
+
+        <form class="max-w-sm mx-auto w-full" style="display: flex;
+    flex-direction: column;
+    gap: 15px;" action="/admin/add-product" enctype="multipart/form-data" method="post">
+            <div>
+                <label for="small-input"
+                    class="block mb-2 text-sm font-medium text-grey-900 dark:text-grey-900">NAME</label>
+                <input type="text" id="small-input" name="name"
+                    class="block w-full p-2 text-gray-900 border border-gray-300 rounded-lg bg-gray-50 sm:text-xs focus:ring-blue-500 focus:border-blue-500 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500">
+            </div>
+            <div>
+                <label for="small-input"
+                    class="block mb-2 text-sm font-medium text-gray-900 dark:text-grey-900">DESCRIPTION</label>
+                <input type="text" id="small-input" name="description"
+                    class="block w-full p-2 text-gray-900 border border-gray-300 rounded-lg bg-gray-50 sm:text-xs focus:ring-blue-500 focus:border-blue-500 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500">
+            </div>
+            <div>
+                <label for="small-input"
+                    class="block mb-2 text-sm font-medium text-gray-900 dark:text-grey-900">PRICE</label>
+                <input type="text" id="small-input" name="price"
+                    class="block w-full p-2 text-gray-900 border border-gray-300 rounded-lg bg-gray-50 sm:text-xs focus:ring-blue-500 focus:border-blue-500 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500">
+            </div>
+            <div>
+                <label for="small-input"
+                    class="block mb-2 text-sm font-medium text-gray-900 dark:text-grey-900">RATING</label>
+                <input type="text" id="small-input" name="Rating"
+                    class="block w-full p-2 text-gray-900 border border-gray-300 rounded-lg bg-gray-50 sm:text-xs focus:ring-blue-500 focus:border-blue-500 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500">
+            </div>
+            <label class="block mb-2 text-sm font-medium text-gray-900 dark:text-grey-900" for="user_avatar">IMAGE</label>
+            <input
+                class="block w-full text-sm text-gray-900 border border-gray-300 rounded-lg cursor-pointer bg-gray-50 dark:text-gray-400 focus:outline-none dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400"
+                aria-describedby="user_avatar_help" name="image" type="file">
+                <button class="bg-gray-700 hover:bg-gray-700 text-white font-bold py-2 px-4 border border-grey-700 rounded" type="submit">Submit</button>
+        </form>
+
+    </div>
+</section>
