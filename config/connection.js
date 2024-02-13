@@ -3,7 +3,7 @@ const state = {
     db:null
 }
 module.exports.connect=function(done){
-    const uri="mongodb+srv://abinthomas:ABIN123a&@test01.nmb5l27.mongodb.net/?retryWrites=true&w=majority"
+    const uri=""
     const dbname = "MarketHive"
 
     MongoClient.connect(uri,(err,data)=>{
